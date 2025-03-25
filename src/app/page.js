@@ -13,8 +13,9 @@ const Section6 = React.lazy(() => import('@/components/landing/section6'));
 
 export function generateMetadata() {
   return {
-    title: "ProTribe - Career accelerator",
-    description: "A compelling and SEO-friendly description of your landing page.",
+    title: "ProTribe - Career Growth Accelerator",
+    description: "Build a career you are proud of.",
+    favicon: "/favicon.ico",
   };
 }
 
@@ -43,7 +44,7 @@ const Landing = () => {
         <meta name="twitter:image" content={metadata.image} />
 
         {/* Favicon */}
-        <link rel="icon" href={metadata.favicon} />
+        <link rel="icon" href='/favicon.ico' sizes="any"/>
 
         {/* Canonical URL */}
         <link rel="canonical" href={metadata.url} />
