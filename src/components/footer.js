@@ -19,7 +19,7 @@ const Footer = () => {
             </Link>
 
             <div className='flex flex-row items-center py-0 my-auto ml-auto text-white sm:flex-col sm:mt-[40px] sm:ml-0 sm:items-start sm:gap-y-[10px]'>
-                <Link href="/join-waitlist">Join Now</Link>
+                <Link href="/join">Join Now</Link>
                 <div className='w-[0.75px] bg-[#93acaf] m-[30px] h-[15px] sm:hidden'></div>
                 <Link href="/privacy-policy">
                 <div className='cursor-pointer'>Privacy Policy</div>

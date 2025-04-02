@@ -14,7 +14,7 @@
 //             <source src="/woman_running.webm" type="video/webm" />
 //             Your browser does not support the video tag.
 //             </video>
-//             <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#010D23] to-transparent"></div>
+//             <div className="absolute bottom-0 left-0 w-full h-1/3 bg-linear-to-t from-[#010D23] to-transparent"></div>
 //         </div>
 //     )
 // }
@@ -42,7 +42,7 @@ const Section1 = () => {
             </video>
 
             {/* Gradient Overlay for readability */}
-            <div className="absolute bottom-0 left-0 w-full h-1/3 sm:h-1/2 bg-gradient-to-t from-[#010D23] to-transparent"></div>
+            <div className="absolute bottom-0 left-0 w-full h-1/3 sm:h-1/2 bg-linear-to-t from-[#010D23] to-transparent"></div>
         </div>
     )
 }

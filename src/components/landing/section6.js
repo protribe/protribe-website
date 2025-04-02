@@ -7,7 +7,7 @@ const Section6 = () => {
                 Make Your Mark, Start Now.
             </div>
 
-            <Link href="/join-waitlist">
+            <Link href="/join">
                 <button className="bg-[#E3A008] text-[#1F2A37] py-[20px] px-[30px] rounded-full cursor-pointer font-medium text-[16px] leading-[100%] tracking-[0.02em]">
                 {/* Join Now */}
                 Apply Now
